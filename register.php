@@ -8,9 +8,9 @@ $user_name = $_POST['user_name'];
 $password = $_POST['password'];
 
 if (trim($user_name) == "")
-   echo "ви не ввели імя";
-else if (trim($email) == "" || trim($password) == "" || $user_name == "")  
-   echo "ви не ввели пароль, email або імя";
+   echo "<br>ви не ввели імя";
+else if (trim($email) == "" || trim($password) == "")  
+   echo "<br>ви не ввели пароль або email";
 else {
    echo "<br>ваш опубліковий запис зарегестровано";}
 
