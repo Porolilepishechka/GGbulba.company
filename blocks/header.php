@@ -11,3 +11,4 @@
 <b><a href="index.php">головна</a></b>
 <b><a href="page1.php">про сайт</a></b>
 <b><a href="page2.php">калькулятор</a></b>
+<b><?php echo "  вітаємо " . $_COOKIE['user_name'];?></b>
